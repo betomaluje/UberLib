@@ -136,7 +136,7 @@ public class SimpleGestureFilter extends SimpleOnGestureListener {
 	public boolean onSingleTapUp(MotionEvent e) {
 		this.listener.onSingleTap();
 		this.tapIndicator = true;
-		return false;
+		return true;
 	}
 
 	@Override
@@ -159,7 +159,7 @@ public class SimpleGestureFilter extends SimpleOnGestureListener {
 			this.context.dispatchTouchEvent(arg0);
 		}
 
-		return false;
+		return true;
 	}
 
 	public interface SimpleGestureListener {

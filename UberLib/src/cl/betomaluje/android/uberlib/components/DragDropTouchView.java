@@ -1,4 +1,4 @@
-package cl.betomaluje.android.uberlib;
+package cl.betomaluje.android.uberlib.components;
 
 import android.os.Vibrator;
 import android.view.MotionEvent;

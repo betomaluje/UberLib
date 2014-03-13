@@ -1,4 +1,4 @@
-package cl.betomaluje.android.uberlib;
+package cl.betomaluje.android.uberlib.components;
 
 import android.content.Context;
 import android.graphics.Canvas;

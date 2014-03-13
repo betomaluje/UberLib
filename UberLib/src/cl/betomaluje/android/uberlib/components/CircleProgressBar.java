@@ -1,5 +1,7 @@
-package cl.betomaluje.android.uberlib;
+package cl.betomaluje.android.uberlib.components;
 
+import cl.betomaluje.android.uberlib.R;
+import cl.betomaluje.android.uberlib.R.styleable;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;

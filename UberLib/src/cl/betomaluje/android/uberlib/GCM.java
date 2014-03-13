@@ -86,7 +86,7 @@ public class GCM {
 	 * @return registration ID, or empty string if there is no existing
 	 *         registration ID.
 	 */
-	private String getRegistrationId(Context context) {
+	public String getRegistrationId(Context context) {
 		final SharedPreferences prefs = getGCMPreferences(context);
 		String registrationId = prefs.getString(PROPERTY_REG_ID, "");
 		if (registrationId.equals("")) {
