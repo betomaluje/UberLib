@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleSeekBar">
+        <attr name="wheel_size" format="integer" />
+        <attr name="pointer_size" format="integer" />
+        <attr name="max" format="integer"></attr>
+        <attr name="show_text" format="boolean"></attr>
+        <attr name="start_angle" format="integer"></attr>
+        <attr name="end_angle" format="integer"></attr>
+        <attr name="text_size" format="integer"></attr>
+        <attr name="init_position" format="integer"></attr>
+        <attr name="color" format="string"></attr>
+        <attr name="wheel_active_color" format="string"></attr>
+        <attr name="wheel_unactive_color" format="string"></attr>
+        <attr name="pointer_color" format="string"></attr>
+        <attr name="pointer_halo_color" format="string"></attr>
+        <attr name="text_color" format="string"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleProgressBar">
+        <attr name="max_progress" format="integer"></attr>
+        <attr name="progress" format="integer"></attr>
+        <attr name="radius" format="integer"></attr>
+        <attr name="show_progress_text" format="boolean"></attr>
+        <attr name="center_text_size" format="integer"></attr>
+        <attr name="progress_color" format="string"></attr>
+        <attr name="background_color" format="string"></attr>
+        <attr name="text_progress_color" format="string"></attr>
+        <attr name="progress_stroke" format="float"></attr>
+        <attr name="background_stroke" format="float"></attr>
+        <attr name="round_border" format="boolean"></attr>
+        <attr name="extra_text" format="string"></attr>
+    </declare-styleable>
+
+</resources>
